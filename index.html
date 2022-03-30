@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div id="search">
+      <select id="template" onchange="show(this)">
+      <option value="">-- Select Ship --</option>
+    </select>
+    </div>
+    <!-- <p id="output"></p> -->
+
+    <main id="content">
+      <div >
+       <img src="" alt="image" id="image" width="200px" height="200px">
+      </div>
+      <div id="output">
+          <h4 id="ship_id"></h4> <br>
+          <h4 id="ship_name"></h4> <br>
+          <h4 id="missions"></h4> <br>
+    </div>
+    </main>
+
+  
+      <!-- <button id="finalClick">LOAD</button> -->
+
+    <script src="./index.js" defer></script>
+  </body>
+</html>
